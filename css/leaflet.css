@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-Oct-2018, 18:48:24
+    Author     : drew
+*/
+
+*{
+    margin: 0px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+img{
+    
+}
+
+body{
+    font-family: sans-serif;
+    background-color: gainsboro;
+    margin: 5% 10% 0px 10%;
+}
+
+
+/* 
+                               HTML 5 Page Structure 
+*/
+
+header{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}
+
+nav{
+    border-radius: 10px;
+    background-color:#f4ebd2;
+    margin: 10% 0px 10% 0px;
+    padding:5% 5% 5% 5%;
+    box-shadow: 4px 4px 10px #918c82;
+}
+
+nav:hover{
+    box-shadow: 0px 0px 10px #918c82
+}
+
+ul{
+
+}
+
+li{
+    padding: 10px 0px 10px 0px;
+
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover{
+    font-weight: bold;
+    background-color: #cccccc;
+    border-radius: 5px;
+}
+
+section{
+    border-radius: 10px;
+    background-color:#f0eee9;
+    margin: 10% 0px 10% 0px;
+    padding:5% 5% 5% 5%;
+    box-shadow: 2px 2px 5px #918c82;
+    
+    
+}
+
+article{
+
+}
+
+aside{
+    float: left;
+}
+
+footer{
+
+}
+
+
+aside{
+    background-color: red;
+}
+
+pre{
+    font-size: 16px;
+    white-space: pre-wrap; 
+}
+
+p{
+    line-height: 20px;
+}
+
+b{
+    margin: inherit;
+    padding: 0px;
+}
+
+/*******************************************************************************
+
+                                    classes
+
+*******************************************************************************/
+
+.center-text{
+    text-align: center;
+}
+
+.right-text{
+    text-align: right;
+}
+
+.alert{
+
+    color: red;
+
+}
+
+.type-writer{
+    font-family: monospace;
+    font-size: 17px;
+}
+.numbered-list{
+    display:list-item;
+    list-style-type:decimal;
+}
+
+.lettered-list{
+    display: list-item;
+    list-style-type:lower-alpha;
+}
+
+.indent-20px{
+    padding-left: 20px;
+}
+
+.indent-30px{
+    padding-left: 30px;
+}
+
+
+/*******************************************************************************
+
+                          Very Project Specific
+
+*******************************************************************************/
+
+
+
+.img-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.img-stamp{
+    background-image: url('../resources/stamp.png');
+    height:120px;
+    opacity: 1.0;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.bottomPadding{
+    height: 600px;
+
+}
