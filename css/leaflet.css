@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6{
 body{
     font-family: sans-serif;
     background-color: gainsboro;
-    margin: 5% 10% 0px 10%;
+    margin: 0% 10% 0px 10%;
 }
 
 
@@ -41,7 +41,7 @@ nav{
     border-radius: 10px;
     background-color:#f4ebd2;
     margin: 10% 0px 10% 0px;
-    padding:5% 5% 5% 5%;
+    padding:5% 5% 5% 10%;
     box-shadow: 4px 4px 10px #918c82;
 }
 
@@ -71,7 +71,7 @@ a:hover{
 
 section{
     border-radius: 10px;
-    background-color:#f0eee9;
+    background-color:#f9f8f4;
     margin: 10% 0px 10% 0px;
     padding:5% 5% 5% 5%;
     box-shadow: 2px 2px 5px #918c82;
@@ -160,12 +160,20 @@ b{
 *******************************************************************************/
 
 
+.img-background{
+    background-image: url('../resources/mtp.png');
+    background-repeat: repeat-y;
+   
+}
+
 
 .img-logo{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 200px;
+    max-width: 20%;
+   
 }
 
 .img-stamp{
@@ -174,18 +182,21 @@ b{
     opacity: 1.0;
     background-repeat: no-repeat;
     background-position: right top;
+    display:block;
+   
 }
 
 .img-footer{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 100%;
+    
     border-radius: 10px;
     box-shadow: 2px 2px 5px #918c82;
 }
 
 .bottomPadding{
-    height: 600px;
+    height: 100px;
 
 }
